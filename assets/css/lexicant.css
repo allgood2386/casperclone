@@ -12,3 +12,6 @@
 .menu a {
     color: #ffffff;
 }
+.menu a:hover {
+    color:#E9E9E9;
+}
