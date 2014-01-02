@@ -2,6 +2,7 @@
     background: rgba(30, 30, 30, 0.5);
 }
 .menu ul {
+    margin-top: 0px;
     margin-bottom: 2px;
 }
 .menu li {
