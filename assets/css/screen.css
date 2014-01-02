@@ -347,7 +347,6 @@ table.plain {
 
 /* Centres vertically yo. (IE8+) */
 .vertical {
-    display: table-cell;
     vertical-align: middle;
 }
 
