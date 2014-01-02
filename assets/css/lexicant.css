@@ -4,6 +4,7 @@
 .menu ul {
     margin-top: 0px;
     margin-bottom: 2px;
+    text-align: left;
 }
 .menu li {
     display: inline;
@@ -11,6 +12,7 @@
 }
 .menu a {
     color: #ffffff;
+    text-decoration: none;
 }
 .menu a:hover {
     color:#C2C2C2;
