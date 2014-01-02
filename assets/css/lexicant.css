@@ -18,6 +18,11 @@
 .menu a:hover {
     color:#C2C2C2;
 }
-.adsbygoogle {
+.adsbygoogle, .adblocker {
     margin: 0 25%;
+}
+.adblocker {
+    width: 300px;
+    font-size: 10px;
+    line-height: 1;
 }
