@@ -2,7 +2,7 @@
     background: rgba(30, 30, 30, 0.5);
 }
 .menu ul {
-    margin: 2px;
+    margin-bottom: 2px;
 }
 .menu li {
     display: inline;
