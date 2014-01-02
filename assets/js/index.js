@@ -15,8 +15,10 @@
         $(function(){
                 if($(".adsbygoogle").css('display')=="none") //use your ad's id here I have used Google Adense
                 {
-                    console.log('here3');
-                    $('body').html("We noticed you have an active Ad Blocker. Example.com is ad funded, we promise our ads are of high quality and are unobtrusive. The best help you could provide to keep us running, is to whitelist us in your ad blocker. Thanks!");
+                    $('.adsbygoogle').html("We noticed you have an active Ad Blocker. Example.com is ad funded, " +
+                        "we promise our ads are of high quality and are unobtrusive. The best help you could provide " +
+                        "to keep us running, is to whitelist us in your ad blocker. Thanks!");
+                    $('.adsbygoogle').css('display','block' );
                 }
         });
 
