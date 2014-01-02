@@ -14,6 +14,7 @@
         //$("#blog-logo").prependTo("#site-head-content");
         $(function(){
             setTimeout(function(){
+                console.log('here4');
                 if($(".addsbygoogle").css('display')=="none") //use your ad's id here I have used Google Adense
                 {
                     console.log('here3');
