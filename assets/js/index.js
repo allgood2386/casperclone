@@ -7,12 +7,13 @@
     "use strict";
 
     $(document).ready(function(){
-        console.log('here');
+
         // On the home page, move the blog icon inside the header 
         // for better relative/absolute positioning.
 
         //$("#blog-logo").prependTo("#site-head-content");
         $(function(){
+            console.log('here2');
             setTimeout(function(){
                 if($("#google_ads_frame1").css('display')=="none") //use your ad's id here I have used Google Adense
                 {
