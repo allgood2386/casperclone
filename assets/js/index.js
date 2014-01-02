@@ -7,7 +7,7 @@
     "use strict";
 
     $(document).ready(function(){
-
+        console.log('here');
         // On the home page, move the blog icon inside the header 
         // for better relative/absolute positioning.
 
