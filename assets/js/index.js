@@ -15,9 +15,9 @@
         $(function(){
                 if($(".adsbygoogle").css('display')=="none") //use your ad's id here I have used Google Adense
                 {
-                    $('.adsbygoogle').html("We noticed you have an active Ad Blocker. Example.com is ad funded, " +
-                        "we promise our ads are of high quality and are unobtrusive. The best help you could provide " +
-                        "to keep us running, is to whitelist us in your ad blocker. Thanks!");
+                    $('.adsbygoogle').html("Hey I noticed you have an ad blocker. Well I'm a developer paying off" +
+                        "student loans still and every bit helps. I've gone and made these ads as un-intrusive" +
+                        "as possible so if you could consider whitelisting this site it would be much appreciated!");
                     $('.adsbygoogle').css('display','block!important' );
                 }
         });
