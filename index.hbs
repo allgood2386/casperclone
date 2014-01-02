@@ -5,6 +5,11 @@
 
 {{! The big featured header on the homepage, with the site logo and description }}
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+    <div class="menu">
+            <ul>
+                <li><a href="./">Home</a></li><li><a href="about-me">About</a></li>
+            </ul>
+    </div>
     <div class="vertical">
         <div id="site-head-content" class="inner">
 
@@ -12,11 +17,6 @@
             <h1 class="blog-title">{{@blog.title}}</h1>
             <h2 class="blog-description">{{@blog.description}}</h2>
         </div>
-    </div>
-    <div class="menu">
-        <ul>
-            <li><a href="./">Home</a></li><li><a href="about-me">About</a></li>
-        </ul>
     </div>
 </header>
 
